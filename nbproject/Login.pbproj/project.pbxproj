@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/Chris/NetBeansProjects/Login/nbproject\ -f\ \'Login.pbproj/qt_makeqmake.mak\'";
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7E1A3EE46608122B45A8B8E2 = {
+			isa = PBXFileReference;
+			name = "LoginForm.cpp";
+			path = "LoginForm.cpp";
+			refType = 4;
+		};
+		415F86C6A37358ED1BFDC698 = {
+			fileRef = "7E1A3EE46608122B45A8B8E2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		04C18C62BACC41679B133F36 = {
+			isa = PBXFileReference;
+			name = "MySQL.cpp";
+			path = "MySQL.cpp";
+			refType = 4;
+		};
+		64784832C5640AE1D3BA9F1D = {
+			fileRef = "04C18C62BACC41679B133F36";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		756480493BB8F909E9E16E64 = {
+			isa = PBXFileReference;
+			name = "LoginForm.h";
+			path = "LoginForm.h";
+			refType = 4;
+		};
+		601CD3A411B7AD6D6589DE32 = {
+			isa = PBXFileReference;
+			name = "MySQL.h";
+			path = "MySQL.h";
+			refType = 4;
+		};
+		1A6713D0FCE9A8C217B58A67 = {
+			isa = PBXFileReference;
+			name = "qt-Release.pro";
+			path = "qt-Release.pro";
+			refType = 4;
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"756480493BB8F909E9E16E64",
+				"601CD3A411B7AD6D6589DE32");
+			name = "Headers";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"118FCBAABA162BA17933C789",
+				"7E1A3EE46608122B45A8B8E2",
+				"04C18C62BACC41679B133F36");
+			name = "Sources";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"1A6713D0FCE9A8C217B58A67");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"2B093CA6F071B023A473CED0",
+				"415F86C6A37358ED1BFDC698",
+				"64784832C5640AE1D3BA9F1D");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"2B093CA6F071B023A473CED0",
+				"415F86C6A37358ED1BFDC698",
+				"64784832C5640AE1D3BA9F1D");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/Chris/NetBeansProjects/Login/nbproject\ -f\ \'Login.pbproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"2B093CA6F071B023A473CED0",
+				"415F86C6A37358ED1BFDC698",
+				"64784832C5640AE1D3BA9F1D");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		E0814A49DDD73EF0F620E7DB = {
+			isa = PBXFrameworkReference;
+			name = "QtSql.framework";
+			path = "/Library/Frameworks/QtSql.framework";
+			refType = 0;
+		};
+		C78BFE0DD4D0FC1F4B157F30 = {
+			fileRef = "E0814A49DDD73EF0F620E7DB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8EE92F8FA333C9E415C5B34E = {
+			isa = PBXFrameworkReference;
+			name = "QtXml.framework";
+			path = "/Library/Frameworks/QtXml.framework";
+			refType = 0;
+		};
+		C2643FEB592DBFD1429BE4E1 = {
+			fileRef = "8EE92F8FA333C9E415C5B34E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"E0814A49DDD73EF0F620E7DB",
+				"8EE92F8FA333C9E415C5B34E",
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"C78BFE0DD4D0FC1F4B157F30",
+				"C2643FEB592DBFD1429BE4E1",
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/Chris/NetBeansProjects/Login/nbproject/dist/Release/GNU-MacOSX";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "18D6C75616C1946406A8F602";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "Login";
+			path = "";
+			refType = 4;
+		};
+		18D6C75616C1946406A8F602 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.executable";
+			path = "Login";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"18D6C75616C1946406A8F602");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		5E8CDCCEB606B542D5E1DFDD = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A");
+			buildSettings = {
+				CC = "/usr/bin/gcc";
+				CPLUSPLUS = "/usr/bin/g++";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/Library/Frameworks/QtXml.framework/Versions/4/Headers",
+					"/usr/include/QtXml",
+					"/Library/Frameworks/QtSql.framework/Versions/4/Headers",
+					"/usr/include/QtSql",
+					"/usr/include",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.7/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/tmp/qt-stuff-6474/source/qt-everywhere-opensource-src-4.7.0/lib");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_SQL_LIB",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_SQL_LIB",
+					"-DQT_XML_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				BUILD_ROOT = "/Users/Chris/NetBeansProjects/Login/nbproject";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-L/tmp/qt-stuff-6474/source/qt-everywhere-opensource-src-4.7.0/lib",
+						"-F/tmp/qt-stuff-6474/source/qt-everywhere-opensource-src-4.7.0/lib");
+				INSTALL_DIR = "/Users/Chris/NetBeansProjects/Login/nbproject/dist/Release/GNU-MacOSX/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "Login";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "18D6C75616C1946406A8F602";
+			shouldUseHeadermap = 1;
+			isa = PBXToolTarget;
+			name = "Login";
+			productName = "Login";
+			startupPath = "<<ProjectDirectory>>";
+			productInstallPath = "dist/Release/GNU-MacOSX/";
+		};
+		8D0921A599A626D1569D9498 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Development";
+		};
+		4CFAD8B741C7FF5A47E1CF98 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Deployment";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"4CFAD8B741C7FF5A47E1CF98");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			projectDirPath = "";
+			targets = (
+				"5E8CDCCEB606B542D5E1DFDD");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
