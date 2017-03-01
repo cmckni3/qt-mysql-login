@@ -1,3 +1,5 @@
+[![project unmaintained](https://img.shields.io/badge/project-unmaintained-red.svg)](https://img.shields.io/badge/project-unmaintained-red.svg)
+
 # QT MySQL login application
 
 Application created for CSC 3380 that prompts user for their username and password.
